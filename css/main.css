@@ -1,0 +1,48 @@
+@import url('http://fonts.cdnfonts.com/css/hanging-party');
+@import url('http://fonts.cdnfonts.com/css/party-by-tom');
+
+html,body{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background:linear-gradient(to bottom,rgba(0, 0, 0, 0.164),rgba(100, 86, 86, 0.103)), url("/img/back.jpg");
+    background-size: cover;
+    height:min-content;
+}
+
+h1{
+    font-size: 50px;
+    font-family:sans-serif;
+    color:rgb(255, 255, 255);
+                                                
+}
+
+span{
+    color: gold;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    background: rgba(20, 1, 1, 0);
+    color: rgb(255, 255, 255);
+    margin-top: 230px;
+    padding: 40px 20px;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+}
+
+.countdown-display{
+    font-size: 95px;
+    margin: 0;
+    padding-left: 31px;
+    font-family: 'Hanging Party', sans-serif;
+                                                
+}
