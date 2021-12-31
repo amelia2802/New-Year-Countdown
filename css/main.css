@@ -1,5 +1,4 @@
 @import url('http://fonts.cdnfonts.com/css/hanging-party');
-@import url('http://fonts.cdnfonts.com/css/party-by-tom');
 
 html,body{
     margin: 0;
@@ -45,4 +44,23 @@ span{
     padding-left: 31px;
     font-family: 'Hanging Party', sans-serif;
                                                 
+}
+
+@media screen and (max-width:481px){
+body{
+    width: 30px;
+    display: flex;
+    
+}
+
+h1{
+    font-size: 30px;
+    text-align: center;
+}
+
+.container{
+    font-size: 30px;
+    text-align: center;
+}
+
 }
