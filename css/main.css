@@ -49,7 +49,6 @@ span{
 @media screen and (max-width:481px){
 body{
     width: 30px;
-    display: flex;
     
 }
 
