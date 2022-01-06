@@ -1,3 +1,9 @@
+@import url('http://fonts.cdnfonts.com/css/hanging-party');
+
+@font-face {
+    font-family: "Hanging Party";
+    src: url('http://fonts.cdnfonts.com/css/hanging-party');
+}
 html,body{
     margin: 0;
     padding: 0;
@@ -54,4 +60,18 @@ span{
                                                 
 }
 
+@media screen and (max-width:481px){
+body{
+    width: 30px;
+    
+}
 
+h1{
+    font-size: 30px;
+    text-align: center;
+}
+
+.container{
+    font-size: 30px;
+    text-align: center;
+}
